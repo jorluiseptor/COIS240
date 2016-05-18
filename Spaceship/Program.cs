@@ -18,8 +18,7 @@ namespace Spaceship
 
             Spaceship s2 = new Spaceship();
             s2.name = "Millenium Falcon";
-            s2.TurnOn();
-
+            s2.TurnOn(); 
 
             Console.ReadLine();
 

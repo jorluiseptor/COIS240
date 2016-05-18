@@ -29,6 +29,7 @@ namespace Spaceship
                     _name = value;
                 }
             }
+
             /// <summary>
             /// Current state of the ship. 
             /// </summary>
