@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle", "Circle\Circle.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spaceship", "Spaceship\Spaceship.csproj", "{9A4BA38E-C6FB-49B0-B4C4-A6DFC26C68FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso", "Repaso\Repaso.csproj", "{F15C5D09-AD9F-4911-A0A9-56D86E020CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneCookie", "FortuneCookie\FortuneCookie.csproj", "{B4161531-B3C2-4AE2-9CE2-9DD5F558BC23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9A4BA38E-C6FB-49B0-B4C4-A6DFC26C68FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A4BA38E-C6FB-49B0-B4C4-A6DFC26C68FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A4BA38E-C6FB-49B0-B4C4-A6DFC26C68FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15C5D09-AD9F-4911-A0A9-56D86E020CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15C5D09-AD9F-4911-A0A9-56D86E020CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15C5D09-AD9F-4911-A0A9-56D86E020CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15C5D09-AD9F-4911-A0A9-56D86E020CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4161531-B3C2-4AE2-9CE2-9DD5F558BC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4161531-B3C2-4AE2-9CE2-9DD5F558BC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4161531-B3C2-4AE2-9CE2-9DD5F558BC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4161531-B3C2-4AE2-9CE2-9DD5F558BC23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
