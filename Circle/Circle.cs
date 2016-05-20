@@ -11,7 +11,6 @@ namespace COIS240
         /// <summary>
         /// 
         /// </summary>
-        private string _name = "bar";
         private double _radius;
 
         /// <summary>
