@@ -12,6 +12,10 @@ namespace Spaceship
         #region Attributes
             private string _name;
             private string _state = "Offline";
+            //TODO añade una funcion para atacar a otras naves
+            //TODO anade el HitPoint (HP) y escudo (shield) de la nave
+            //TODO una funcion que dispare de una nave a otra y el parametro
+            //sea otra el objeto de otra nave. 
         #endregion
 
         #region Properties
@@ -44,6 +48,7 @@ namespace Spaceship
 
 
         #region Methods
+
         /// <summary>
         /// Make the ship take off. 
         /// </summary>
@@ -61,6 +66,7 @@ namespace Spaceship
             //Ship is now on. 
             _state = "Online"; 
         }
+
         #endregion
 
     }
