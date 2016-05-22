@@ -93,14 +93,28 @@ namespace Spaceship
         /// Attack another ship.
         /// </summary>
         /// <param name="enemyShip">The spaceship object that will be attacked.</param>
-        public void Attack(Spaceship enemyShip)
+        public void Attack(Spaceship enemyShip, int hit = 100)
         {
             //random object to create random numbers.
-            Random rand = new Random(); 
-            //a hit amount of 10 minus a random number between 0 and 11
-            int hit = 10 - rand.Next(0, 11);
-            enemyShip._hitPoints = enemyShip._hitPoints - hit; 
+            Random rand = new Random();
+
+            //a hit amount minus a random number between 0 and 101
+            hit = (hit * rand.Next(0, 101)) / 100;
+
+            enemyShip._hitPoints = enemyShip._hitPoints - hit;
+            if (enemyShip.hitPoints > 0)
+            {
+                Console.WriteLine("{0} attacked {1} by {2}. {1}'s hitpoint is {3}",
+                    _name, enemyShip._name, hit, enemyShip.hitPoints);
+            }
+            else
+            {
+                Console.WriteLine("{0} attacked {1} by {2} and destroyed the ship in million pieces!",
+                    _name, enemyShip._name, hit);
+            }
         }
+
+
         #endregion
 
     }
