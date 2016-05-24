@@ -24,11 +24,14 @@ namespace Spaceship
 
             while (command != 'x')
             {
-                Console.WriteLine("Hitpoints of ship {0} is {1}. ", s1.name, s1.hitPoints);
-                Console.WriteLine("Press a to attack, x to finish.");
+                Console.WriteLine("Press a to attack.");
+                Console.WriteLine("Press x to finish.");
+
                 command = Console.ReadKey().KeyChar; 
                 if (command == 'a')
                 {
+                    Console.WriteLine(""); //blank line
+
                     s2.Attack(s1);
                 }
             }

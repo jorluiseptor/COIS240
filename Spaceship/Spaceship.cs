@@ -97,9 +97,13 @@ namespace Spaceship
         {
             //random object to create random numbers.
             Random rand = new Random(); 
+
             //a hit amount of 10 minus a random number between 0 and 11
             int hit = 10 - rand.Next(0, 11);
-            enemyShip._hitPoints = enemyShip._hitPoints - hit; 
+            enemyShip._hitPoints = enemyShip._hitPoints - hit;
+
+            //output
+            Console.WriteLine("{0} attacked {1} by {2} hitpoints. {1}'s hitpoints are now {3}.", this.name, enemyShip.name, hit, enemyShip._hitPoints);
         }
         #endregion
 
