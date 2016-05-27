@@ -28,6 +28,19 @@ namespace Planets
             }
         }
 
+        private double _diameter;
+        /// <summary>
+        /// The planet's diamter in Km. 
+        /// </summary>
+        public double diameter
+        {
+            get { return _diameter; }
+            set { _diameter = value; }
+        }
+
+
+
+
         /// <summary>
         /// Describe the planet is rotating
         /// </summary>

@@ -18,6 +18,17 @@ namespace Planets
             planet2.name = "Angelito";
             planet2.rotate();
 
+            planet1.diameter = 1200;
+
+
+            SolarSystem sol = new SolarSystem();
+            sol.starName = "Sun";
+            sol.planetList.Add(planet1);
+            sol.planetList.Add(planet2);
+
+
+
+            Console.WriteLine(sol.planetList[0].name);
             Console.ReadLine();
         }
     }
