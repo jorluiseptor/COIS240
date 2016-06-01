@@ -47,7 +47,6 @@ namespace Planets
         public void rotate()
         {
             Console.WriteLine("The planet {0} is rotating very fast!", _name);
-
         }
     }
 }

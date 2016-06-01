@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephone", "Telephone\Tele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planets", "Planets\Planets.csproj", "{7F43A373-11F6-4E6C-883C-8D024C41D038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computers", "Computers\Computers.csproj", "{430F305B-E235-4877-B595-C126646D0313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{5030DD7C-A5B7-4EF6-8020-E44D6034F85A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{7F43A373-11F6-4E6C-883C-8D024C41D038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F43A373-11F6-4E6C-883C-8D024C41D038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F43A373-11F6-4E6C-883C-8D024C41D038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430F305B-E235-4877-B595-C126646D0313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430F305B-E235-4877-B595-C126646D0313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430F305B-E235-4877-B595-C126646D0313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430F305B-E235-4877-B595-C126646D0313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5030DD7C-A5B7-4EF6-8020-E44D6034F85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5030DD7C-A5B7-4EF6-8020-E44D6034F85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5030DD7C-A5B7-4EF6-8020-E44D6034F85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5030DD7C-A5B7-4EF6-8020-E44D6034F85A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
